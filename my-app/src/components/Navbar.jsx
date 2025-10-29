@@ -6,12 +6,14 @@ const Navbar = () => {
       <div className="bg-[var(--primary)] p-1">
         <div className="w-9/12 mx-auto flex justify-between ">
           <div className="">
-            <img src="./ganesh.png" alt="ganesh ji" className="w-30" />
+            <img src="./ganesh.png" alt="ganesh ji" className="w-40" />
           </div>
 
-          <div></div>
           <div>
-            <img src="./lakshmi.png" alt="laxmi ji" className="w-30 aspect-1/1" />
+            <img src="./shubh_labh_rm.jpg" alt="subh-labh" className=""/>
+          </div>
+          <div>
+            <img src="./lakshmi.png" alt="laxmi ji" className="w-40 aspect-1/1" />
           </div>
         </div>
       </div>
