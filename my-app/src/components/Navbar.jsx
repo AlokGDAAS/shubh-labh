@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="bg-[var(--primary)] p-1">
-        <div className="w-9/12 mx-auto flex justify-between ">
+        <div className="md:w-9/12 mx-auto flex justify-between ">
           <div className="">
             <img src="./ganesh.png" alt="ganesh ji" className="w-40" />
           </div>
@@ -19,7 +19,7 @@ const Navbar = () => {
       </div>
 
       <div className="w-9/12 mx-auto ">
-        <ul className="flex px-4 py-1 gap-4 justify-center font-semibold text-lg ">
+        <ul className="flex px-4 py-1 gap-4 justify-center font-semibold md:text-lg ">
             <li>Home</li>
             <li>About</li>
             <li>Contact</li>
